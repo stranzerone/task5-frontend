@@ -1,0 +1,41 @@
+.doctorCoin{
+
+padding: 6rem 0 2rem 1rem;
+
+}
+.page{
+   background-color: white;
+}
+.profileBox{
+    display: flex;
+    width: 30vw;
+   
+}
+
+.profileBox h1{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.profileBox p{
+    font-size: .8rem;
+}
+.text{
+    margin-left: 1rem;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    border:solid yellow .2rem;
+    background-color: yellow;
+}
+
+.avatar img{
+    height: 3rem;
+    width: 3rem;
+}

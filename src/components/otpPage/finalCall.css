@@ -1,0 +1,48 @@
+.container {
+    width: 80vw;
+    border: 1px solid black;
+    height: 50vh;
+    display: flex;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    text-align: left;
+  }
+  .input-container  {
+    display: flex;
+    align-items: center;
+    border: none;
+  }
+  .input-container input {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    border: none;
+  }
+  
+  .whatsapp-logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .whatsapp-logo img{
+
+    width: 2rem;
+    height: 2rem;
+  }
+ 
+  .otp-button{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: end;
+    align-items: end;
+  }
+
+  .send-otp-button{
+    border-radius: 1rem;
+  }

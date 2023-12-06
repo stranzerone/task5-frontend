@@ -1,0 +1,41 @@
+
+.date-carousel-container {
+    display: flex;
+    flex-direction: column;
+padding-top: 2rem; 
+    align-items: center;
+  }
+  
+  .date-carousel {
+    display: flex;
+   
+  }
+  .selectedCar {
+    background-color: gray;
+  }
+  
+  
+  .date-card {
+   
+    width: 10vw;
+    padding: .2rem;
+    text-align: center;
+  font-weight: 700;
+  color: #000;
+    margin: 0 6vw;
+  }
+
+  .date-card h6{
+    font-size: .6rem;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+ 

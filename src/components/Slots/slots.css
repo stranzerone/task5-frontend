@@ -1,0 +1,71 @@
+.time-grid {
+    margin-top: 2rem;
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .slot-coin{
+    width: 80vw;
+    padding-bottom: 4rem;
+  }
+
+  .time-grid button{
+    color: black;
+  }
+  .time-cell {
+    border: 1px solid #ddd;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: .3rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  .booked{
+    background-color: rgb(178, 173, 173);
+    pointer-events: none;
+  }
+  .selected{
+    background-color:greenyellow;
+  }
+  
+  .appoint-button{
+  display: block;
+
+
+   border-radius: .4rem;
+  }
+
+  .clinic{
+    margin-top: 2rem;
+    width: 80vw;
+   
+  }
+
+  .clinic h1{
+    font-size: 1rem;
+  }
+
+  .clinic label{
+    font-size: .9rem;
+    margin-left: .5rem;
+  }
+
+ /* CSS file or style section in your HTML/React component */
+input[type="radio"] {
+    appearance: none; /* Remove default appearance */
+    -webkit-appearance: none; /* For older versions of WebKit browsers */
+    -moz-appearance: none; /* For older versions of Firefox */
+    width: 1.5rem; /* Set the width and height for the custom radio button */
+    height: 1.5rem;
+    border: .5rem solid #4CAF50; /* Set border color to green */
+    border-radius: 50%; /* Make it a circle */
+    outline: none; /* Remove default focus styles */
+  }
+  
+  input[type="radio"]:checked {
+    background-color: #4CAF50; /* Change background color to green when checked */
+    border-color: #4CAF50; /* Change border color to green when checked */
+  }
+  

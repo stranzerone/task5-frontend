@@ -1,0 +1,38 @@
+.faq-container {
+    max-width: 80vw;
+    height: auto;
+    margin: 0 10vw 0 10vw;
+    height: 5rem;
+    text-align: center;
+ height: auto;
+ padding-bottom: 2rem;
+    margin-top: 2rem;
+    
+
+  }
+
+  
+  
+  .question-box {
+ 
+    height: 4rem;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #fefefe;
+    color: #090909;
+  }
+  
+  .answer-box {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 60vw;
+   
+  }
+  
